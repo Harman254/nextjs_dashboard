@@ -1,3 +1,6 @@
+
+
+"use client"
 import clsx from 'clsx';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -5,6 +8,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 export function Button({ children, className, ...rest }: ButtonProps) {
+
   return (
     <button
       {...rest}
